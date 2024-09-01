@@ -1,3 +1,9 @@
 body{
     background-image: url('photo.jpg');
+    display: flex;
 }
+ .main {
+    background-color: darkgray;
+    height: 300px;
+    width: 500px;
+ }
