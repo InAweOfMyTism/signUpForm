@@ -1,9 +1,47 @@
 body{
+    margin: 0;
+    padding: 0;
     background-image: url('photo.jpg');
     display: flex;
 }
  .main {
-    background-color: darkgray;
-    height: 300px;
-    width: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
+
+ #myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+ }
+
+ .textInputs{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .textInputs input{
+    margin: 15px 15px;
+    width: 200px;
+ }
+
+ .textInputs label{
+    margin: 15px 15px;
+    width: 100px;
+ }
+
+ #signUp{
+    width: 250px;
+    height: 85px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: darkgray;
+    border: none;
+ }
+ 

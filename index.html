@@ -15,21 +15,30 @@
         href="https://unsplash.com/photos/a-lake-surrounded-by-mountains-with-a-sky-filled-with-clouds-_eW1bHhufBg" target="_blank">Background by Philipp on Unsplash</a>
     </div>
     <div class="main">
-        <h1>Sign up form</h1>
-        <form action="" method="post">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName">
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName">
-            <label for="emailAddress">Email:</label>
-            <input type="email" id="emailAddress" name="emailAddress">
-            <label for="confirmEmail">Confirm Email:</label>
-            <input type="email" id="confirmEmail" name="confirmEmail">
-            <label for="password">Password</label>
-            <input type="text" id="password" name="password">
-            <label for="confirmPassword">Confirm Password</label>
-            <input type="text" id="confirmPassword" name="confirmPassword">
-            <button type="submit">Sign me up!</button>
+        <h1 id="formTitle">Sign up form</h1>
+        <form id="myForm" action="" method="post">
+            <div class="textInputs">
+
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName">
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName">
+                
+                <label for="emailAddress">Email:</label>
+                <input type="email" name="emailAddress" id="emailAddress">
+                
+                <label for="phoneNumber">Phone:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confirmPassword" id="confirmPassword">
+
+            </div>
+            <button type="submit" id="signUp">Sign me up!</button>
         </form>
     </div>
 </body>
